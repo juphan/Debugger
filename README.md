@@ -9,6 +9,7 @@ The program can be run in two ways.
 1) Open the project in NetBeans. Then, right-click the opened project and then open the "Properties" menu item. Select the category named "Run" and then make sure you select the appropriate values in the "Arguments" and "Working Directory" textboxes. Then, run the program in NetBeans.
 2) Open your command prompt and change directories to the file that contains "Debugger.jar" (Located in the "dist" folder). Make sure the appropriate test files are in the same directory and then run the JAR file with the appropriate arguments.
 
-`java -jar "Interpreter.jar" <filename.x.cod>`
+# Example
+`java -jar Debugger.jar <filename.x.cod>`
 
-`java -jar "Interpreter.jar" -d <filename no extension>`
+`java -jar Debugger.jar -d <filename no extension>`
